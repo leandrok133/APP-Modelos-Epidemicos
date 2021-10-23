@@ -1,10 +1,11 @@
 # APP-Modelos-Epidemicos
-Um aplicativo web para representar alguns modelos epidemiológicos feito em Python.
+Um aplicativo web feito em Python para representação de modelos epdemiológicos.
 
-Usei o método de Runge Kutta de ordem 4 (RK4) para resolver as equações diferenciais parciais de alguns modelos 
+Foi usado o método de Runge Kutta de ordem 4 (RK4) para resolver as equações diferenciais parciais de alguns modelos 
 epidemiológicos como: SI, SIS, SIR e SIRS.
 
-Para fazer o app web eu usei a biblioteca streamlit. Eu só consigo rodar localmente indo no CMD e digitando 
-"streamlit run app.py", mas estou tentando usar o Heroku para deixar o app executavel através de um link.
+O deploy do app foi hospedado em dusa plataformas distintas, sendo elas Streamlit e Heroku, onde os links para acesso são:
+Streamlit: https://share.streamlit.io/leandrok133/app-modelos-epidemicos/app.py
+Heroku: https://model-epidem.herokuapp.com/
 
 O código ainda não está pronto, pois falta fazer uns ajustes para melhorar.
